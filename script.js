@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
           y: landingLineY - parseFloat(leaf.dataset.initialY), // Exact landing position
           x: `+=${gsap.utils.random(-30, 30)}`, // Small random horizontal shift
           rotation: gsap.utils.random(-60, 60),
-          duration: gsap.utils.random(4, 6),
+          duration: gsap.utils.random(3, 5),
           ease: "power2.inOut",
           delay: gsap.utils.random(0, 2),
       }), 0); // The '0' ensures all animations start at the same time
